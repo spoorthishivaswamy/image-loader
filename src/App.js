@@ -1,4 +1,5 @@
 import {CardList} from "./components/card-list/card-list.component"
+import {DarkLightMode} from "./components/dark-light-mode/dark-light-mode.component"
 import './App.css';
 
 let arr = [
@@ -14,7 +15,8 @@ let arr = [
 function App() {
   return (
     <div className="App">
-      <h1>Cats and Dogs</h1>
+    <h1>Cats and Dogs</h1>
+    <DarkLightMode/>
     <CardList images = {arr}/>
     </div>
   );
