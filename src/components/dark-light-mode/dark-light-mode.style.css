@@ -1,0 +1,34 @@
+
+.true > .card-list >.card-container {
+    border: 1px solid grey;
+}
+.true > h1{
+    color: white;
+}
+.true > .dark-light-mode> button {
+    background: #121212;
+    color: white;
+    border: 1px solid #121212;
+}
+
+
+.false .card-list >.card-container{
+    background-color:#fff;
+}
+
+.dark-light-mode > button{
+    font-size: 15px;
+    font-weight: 600;
+    height: 40px;
+}
+.false > .dark-light-mode > button {
+    background-color: #fff;
+    background: white;
+    border: 1px solid white;
+}
+
+.dark-light-mode{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1%;
+}

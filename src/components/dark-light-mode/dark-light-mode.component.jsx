@@ -1,5 +1,12 @@
 import React from 'react'
+import "./dark-light-mode.style.css"
 
-export const DarkLightMode = (props) =>{
- return <button>Toggle dark mode</button>   
+class DarkLightMode extends React.Component {  
+    render() {
+        return(
+        <button  onClick= {this.props.callBack}>Toggle dark mode</button> 
+        )
+    }
 }
+
+export default DarkLightMode
