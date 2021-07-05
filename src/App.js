@@ -13,8 +13,8 @@ let arr = [
   'https://placekitten.com/600/300',
   'https://place.dog/800/900'
 ]
-function changeStyle (darkMode){
-  console.log("changeStyle",darkMode);
+function changeBackground (darkMode){
+  console.log("changeBackground",darkMode);
   if(darkMode){
   document.body.style.backgroundColor='#fff'
   }
@@ -28,7 +28,7 @@ class App extends React.Component {
   }
   toggleMode = () => {
     console.log("toggleMode")
-    this.setState(prevState => ( changeStyle(prevState.darkMode),{
+    this.setState(prevState => ( changeBackground(prevState.darkMode),{
       darkMode: !prevState.darkMode
     }))
   }
