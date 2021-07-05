@@ -1,5 +1,6 @@
 import { CardList } from "./components/card-list/card-list.component"
 import DarkLightMode from "./components/dark-light-mode/dark-light-mode.component"
+import {Router} from "./components/route/route.component"
 import './App.css';
 import React from "react";
 
@@ -35,6 +36,7 @@ class App extends React.Component {
   render() {
     return (
       <div className={this.state.darkMode.toString()}>
+        <Router/>
         <h1 style={{textAlign:"center"}}>Cats and Dogs</h1>
         <div className="dark-light-mode"><DarkLightMode callBack={this.toggleMode}/></div>
         <CardList images={arr} />
