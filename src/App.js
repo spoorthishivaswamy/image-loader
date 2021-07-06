@@ -1,4 +1,4 @@
-import { CardList } from "./components/card-list/card-list.component"
+import CardList from "./components/card-list/card-list.component"
 import DarkLightMode from "./components/dark-light-mode/dark-light-mode.component"
 import {Router} from "./components/route/route.component"
 import './App.css';
@@ -10,7 +10,7 @@ let arr = [
   'https://placekittenn.com/600/800',
   'https://place.dog/1000/200',
   'https://placekitten.com/250/900',
-  'https://placee.dog/100/100',
+  'https://place.dog/100/100',
   'https://placekitten.com/600/300',
   'https://place.dog/800/900'
 ]

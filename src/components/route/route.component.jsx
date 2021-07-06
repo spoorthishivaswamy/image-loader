@@ -4,6 +4,6 @@ import {CardDescription} from "../card-description/card-description.component"
 
 export const Router = () => (
    <Switch>
-    <Route exact path='/description' component={CardDescription}/>
+    {/* <Route exact path='/description' component={CardDescription}/> */}
   </Switch>
 )
