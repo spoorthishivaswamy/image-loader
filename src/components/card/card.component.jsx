@@ -11,6 +11,6 @@ function errorFunction(e) {
 
 export const Card = (props) => (
     <div className="card-container">
-    <div><img src={props.image} key={props.image} id={props.image} className="animal-image" alt="Not found" onError={(e) => errorFunction(e)}></img></div>
+    <img src={props.image} key={props.image} id={props.image} className="animal-image" alt="Not found" onError={(e) => errorFunction(e)}></img>
     </div>
 )

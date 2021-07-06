@@ -28,6 +28,7 @@ class Drawer extends React.Component {
     }
     
     render() {
+      console.log("image", this.props.image);
       return(
         <div>
           {
