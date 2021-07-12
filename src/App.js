@@ -29,7 +29,8 @@ class App extends React.Component {
   }
   toggleMode = () => {
     console.log("toggleMode")
-    this.setState(prevState => ( changeBackground(prevState.darkMode),{
+    this.setState(prevState => ( 
+      changeBackground(prevState.darkMode),{
       darkMode: !prevState.darkMode
     }))
   }

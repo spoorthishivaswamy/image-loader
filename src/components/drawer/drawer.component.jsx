@@ -3,7 +3,6 @@ import React from "react"
 class Drawer extends React.Component {
   constructor(props) {
     super(props)
-    this.state = props
     this.drawerStyle = {
       position: 'fixed',
       top: '0px',
