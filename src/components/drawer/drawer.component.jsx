@@ -12,7 +12,7 @@ class Drawer extends React.Component {
       background: '#2f2f2f',
       overflowX: 'hidden',
       overflowY: 'scroll',
-      webkitOverflowScrolling: 'touch'
+      WebkitOverflowScrolling: 'touch'
     }
   }
 

@@ -29,11 +29,9 @@ class CardList extends React.Component {
     return (
       <div className="card-list">
         {this.props.images.map(image => (
-        <Link to="/description" replace>
-        {/* <span key={image} onClick={() => this.openDrawer(image)}> */}
+        <span key={image} onClick={() => this.openDrawer(image)}>
           <Card key={image} image={image}/>
-        {/* </span> */}
-       </Link>
+        </span>
       ))}
 
 <Drawer show={this.state.showDrawer} onClose={this.closeDrawer.bind(this)} image={this.state.image}/> 
