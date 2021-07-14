@@ -12,6 +12,9 @@ let arr = [
   'https://placekitten.com/250/900',
   'https://place.dog/100/100',
   'https://placekitten.com/600/300',
+  'https://place.dog/800/900',
+  'https://placekitten.com/600/300',
+  'https://placekittenn.com/600/800',
   'https://place.dog/800/900'
 ]
 function changeBackground (darkMode){
