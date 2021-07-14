@@ -12,9 +12,25 @@ code {
     monospace;
 }
 
-
+@media screen{
+  #pageFooter{
+    display: none;
+  }
+}
 @media  print {
-  header, footer,h1{
+  .dark-light-mode{
   display: none !important;
+  }
+  #pageFooter {
+    position: fixed;
+    bottom: 0;
+  }
+  .card-container {
+    page-break-inside: avoid;
+  }
+
+  .card-list{
+    display: grid !important;
+    grid-template-columns: 1fr !important;
   }
 }
